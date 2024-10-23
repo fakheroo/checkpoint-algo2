@@ -1,0 +1,11 @@
+procedure tri_A_bulle(arr= array)
+ n := length(arr)
+     FOR i FROM 1 TO n - 1  DO
+      pos := arr[i] 
+      j := i - 1
+       WHILE (j >= 0 and arr [j] > key) DO
+         arr[j + 1] := arr[j]
+          arr[j + 1] :=pos   
+        END_WHILE
+     END_FOR
+ end procedure
